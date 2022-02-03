@@ -1,0 +1,23 @@
+{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Gill Sans', sans-serif;
+	color: rgb(7, 162, 252);
+}
+
+h3 {
+	font-size: 36px;
+}
+p {
+	font-size: 22px;	
+}
+
+#invite {
+	height: 80px;
+	width: 800px;
+	background-image: url("imgs/Autocorrekt\ snivy.jpg");
+	background-size: contain;
+	padding: 180px;
+}
