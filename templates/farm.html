@@ -1,0 +1,39 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<form action="/view" method="GET">
+			<label for="style">Choose a style:</label>
+			<select name="style" id="style">
+				<option value="kids">Kids</option>
+				<option value="cat">Cat</option>
+				<option value="scroll">Scroll</option>
+			</select>
+			<div>
+				<label for="event">Event name: </label>
+				<input type="text" name="event" id="event" value="Birthday party" />
+			</div>
+			<div>
+				<label for="event">Who do you want to invite? </label>
+				<input type="text" name="to" id="to" value="friend" />
+			</div>
+			<div>
+				<label for="event">What date is the event? </label>
+				<input type="text" name="date" id="date" value="17th of some month" />
+			</div>
+			<div>
+				<label for="event">What time is the event? </label>
+				<input type="text" name="time" id="time" value="6PM" />
+			</div>
+			<div>
+				<label for="event">Your name: </label>
+				<input type="text" name="sender" id="sender" value="Zeus" />
+			</div>
+			<div><button>Make my Invitation!</button></div>
+		</form>
+	</body>
+</html>

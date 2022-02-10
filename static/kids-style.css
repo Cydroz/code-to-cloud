@@ -3,8 +3,9 @@
 }
 
 body {
-	font-family: 'Gill Sans', sans-serif;
-	color: rgb(7, 162, 252);
+	font-family: 'Chiller', sans-serif;
+	/* color: rgb(7, 162, 252); */
+	color:black;	
 }
 
 h3 {
@@ -15,9 +16,9 @@ p {
 }
 
 #invite {
-	height: 80px;
-	width: 800px;
+	height: 360px;
+	width: 200px;
 	background-image: url("imgs/Autocorrekt\ snivy.jpg");
 	background-size: contain;
-	padding: 180px;
+	padding: 80px;
 }
